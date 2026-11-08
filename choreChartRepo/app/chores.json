@@ -1,0 +1,221 @@
+{
+  "_help": "Edit this file to change chores. 'days' = which days a chore shows (leave out for every day). 'bonus': true = always optional, or a list of days it is optional. Section 'starts' = time (24h) that section becomes the one shown by default. Changes show up on the screen within 30 seconds (no restart needed)",
+  "sections": [
+    {
+      "id": "morning",
+      "name": "Morning",
+      "icon": "🌅",
+      "starts": "00:00"
+    },
+    {
+      "id": "day",
+      "name": "Day",
+      "icon": "☀️",
+      "starts": "11:00"
+    },
+    {
+      "id": "evening",
+      "name": "Evening",
+      "icon": "🌙",
+      "starts": "17:00"
+    }
+  ],
+  "kids": [
+    {
+      "id": "ashton",
+      "name": "Ashton",
+      "color": "#2f6fde",
+      "chores": {
+        "morning": [
+          {"name": "Make bed"},
+          {"name": "Put on clothes (including shoes)"},
+          {"name": "Eat breakfast"},
+          {"name": "Take vitamins"},
+          {"name": "Brush hair"},
+          {"name": "Brush teeth"},
+          {
+            "name": "Backpack, lunchbox, and water by door",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Bedroom lights off",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Done by 7:35 am",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Do one of next 3 chores",
+            "days": ["mon", "tue", "wed", "thu", "fri"],
+            "bonus": true
+          }
+        ],
+        "day": [
+          {"name": "Eat vegetable"},
+          {"name": "Read 30 minutes"},
+          {
+            "name": "Homework",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Piano",
+            "bonus": ["mon", "tue", "wed", "thu"]
+          },
+          {
+            "name": "Hang backpack on hook",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Shower (day before ok)",
+            "days": ["sun", "tue", "thu"]
+          },
+          {
+            "name": "Put lunch box (and thermos) in sink",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {"name": "Sidekick to hero"},
+          {"name": "Put away laundry (as needed)"},
+          {"name": "Clean room"},
+          {
+            "name": "Vacuum family room rug and living room",
+            "days": ["tue"]
+          },
+          {
+            "name": "Clean bathroom",
+            "days": ["mon"]
+          },
+          {
+            "name": "Unload dishes",
+            "days": ["thu"]
+          }
+        ],
+        "evening": [
+          {"name": "Eat vegetable"},
+          {
+            "name": "Wipe off counters and table",
+            "days": ["wed"]
+          },
+          {
+            "name": "Load dishes",
+            "days": ["fri"]
+          },
+          {
+            "name": "Sweep kitchen floor",
+            "days": ["sat"]
+          },
+          {
+            "name": "Wash extra dishes",
+            "days": ["sun"]
+          },
+          {"name": "Take vitamins"},
+          {"name": "Pick up toys in all rooms in house"},
+          {"name": "Pick up toys outside"},
+          {"name": "Brush teeth and floss"},
+          {"name": "Set up white noise/meditation"},
+          {"name": "Fill water bottle and set by bed"},
+          {"name": "Go to bathroom"},
+          {"name": "In bed by 8:30pm"},
+          {"name": "Comes out of bed < 3 times"}
+        ]
+      }
+    },
+    {
+      "id": "sienna",
+      "name": "Sienna",
+      "color": "#c2417a",
+      "chores": {
+        "morning": [
+          {"name": "Make bed"},
+          {"name": "Put on clothes (including shoes)"},
+          {"name": "Eat breakfast"},
+          {"name": "Brush hair"},
+          {"name": "Brush teeth"},
+          {
+            "name": "Backpack, lunchbox, and water by door",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Bedroom lights off",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Done by 7:35 am",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Do one of next 3 chores",
+            "days": ["mon", "tue", "wed", "thu", "fri"],
+            "bonus": true
+          }
+        ],
+        "day": [
+          {"name": "Eat vegetable"},
+          {"name": "Read 20 minutes"},
+          {
+            "name": "Homework",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Piano",
+            "bonus": ["mon", "tue", "wed", "thu"]
+          },
+          {
+            "name": "Hang backpack on hook",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {
+            "name": "Shower (day before ok)",
+            "days": ["sun", "tue", "thu"]
+          },
+          {
+            "name": "Put lunch box (and thermos) in sink",
+            "days": ["mon", "tue", "wed", "thu", "fri"]
+          },
+          {"name": "Duolingo", "bonus": true},
+          {"name": "Put away laundry (as needed)"},
+          {"name": "Clean room"},
+          {
+            "name": "Empty dishwasher",
+            "days": ["mon"]
+          },
+          {
+            "name": "Vacuum family room rug and living room",
+            "days": ["wed"]
+          },
+          {
+            "name": "Clean bathroom",
+            "days": ["thu"]
+          }
+        ],
+        "evening": [
+          {"name": "Eat vegetable"},
+          {
+            "name": "Load dishwasher",
+            "days": ["tue"]
+          },
+          {
+            "name": "Sweep kitchen floor",
+            "days": ["fri"]
+          },
+          {
+            "name": "Wash extra dishes",
+            "days": ["sat"]
+          },
+          {
+            "name": "Wipe off counters and table",
+            "days": ["sun"]
+          },
+          {"name": "Pick up toys in all rooms in house"},
+          {"name": "Pick up toys outside"},
+          {"name": "Brush teeth and floss"},
+          {"name": "Set up white noise/meditation/night lights"},
+          {"name": "Fill water bottle and set by bed"},
+          {"name": "Go to bathroom"},
+          {"name": "In bed by 8:15 pm"},
+          {"name": "Comes out of bed < 3 times"}
+        ]
+      }
+    }
+  ]
+}
